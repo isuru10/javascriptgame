@@ -1,0 +1,60 @@
+body{
+    position: relative;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Lobster', cursive;
+}
+
+#level{
+    position: absolute;
+    top : 100px;
+    left: 300px;
+
+}
+
+#level img{
+    position: absolute;
+    width: 512px;
+    height: 446px;
+}
+
+#megaman img{
+    width: 110px;
+}
+
+#megaman{
+    position: absolute;
+    display: inline-block;
+    top: 320px;
+    left: 300px;
+    z-index: 100;
+}
+
+#background{
+    overflow: hidden;
+}
+
+#enemy{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top: 330px;
+    left: 700px;
+    z-index: 90;
+}
+
+#enemy-shot{
+    position: absolute;
+    width: 20px;
+    height: 5px;
+    top: 360px;
+    left: 680px;
+    background-color: red;
+    z-index: 98;
+}
+
+
+
+
